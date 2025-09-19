@@ -1,5 +1,22 @@
 # Changes
 
+## [1.0.1] - 2025-01-18
+
+### Enhanced
+- **Lexer**: Better token system with utility functions
+- **Numbers**: Support for integers and floats
+- **Strings**: Escape sequences like \n, \t, \r, \\, \"
+- **Comments**: Single-line comments with //
+- **Position**: Better tracking with file, line, column
+- **Scanning**: Character-by-character with lookahead
+
+### Files Added
+- `src/lexer.cpp` - Token utilities and lexer methods
+
+### Files Changed
+- `src/lexar.hpp` - Better token system and lexer class
+- `CMakeLists.txt` - Added lexer.cpp to build
+
 ## [1.0.0] - 2025-01-18
 
 ### Added

@@ -6,7 +6,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 add_executable(lithium
         src/main.cpp
-        src/lexar.hpp
+        src/lexar.hpp src/lexer.cpp
         src/parser.hpp src/parser.cpp
         src/ast.hpp src/ast.cpp
         src/semantic.hpp src/semantic.cpp
